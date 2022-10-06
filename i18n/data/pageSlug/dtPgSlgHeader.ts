@@ -1,0 +1,28 @@
+import { appSlug } from "../../index";
+
+export const dtPgSlgHeader = [
+  appSlug.hdr__lbl__search,
+  appSlug.hdr__lbl__logout,
+  appSlug.hdr__lbl__theme_settings,
+  appSlug.hdr__lbl__settings,
+  appSlug.hdr__lbl__group_settings,
+  appSlug.notif__text__under_progress,
+  appSlug.notif__err__server_error,
+  appSlug.mnu__lbl__homepage,
+  appSlug.mnu__lbl__privileges,
+  appSlug.mnu__lbl__components,
+  appSlug.mnu__lbl__profile,
+  appSlug.mnu__lbl__role,
+  appSlug.mnu__lbl__user_priv_list,
+  appSlug.mnu__lbl__domain,
+  appSlug.mnu__lbl__group,
+  appSlug.mnu__lbl__user,
+  appSlug.mnu__lbl__admin,
+  appSlug.mnu__lbl__under_development,
+  appSlug.mnu__lbl__i18n,
+  appSlug.mnu__lbl__languages,
+  appSlug.mnu__lbl__change_bg,
+  appSlug.mnu__lbl__app_settings,
+  appSlug.mnu__lbl__products,
+  appSlug.mnu__lbl__document_type_list,
+] as const;

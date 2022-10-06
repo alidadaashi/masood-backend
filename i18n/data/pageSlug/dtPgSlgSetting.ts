@@ -1,0 +1,35 @@
+import { appSlug } from "../../index";
+
+export const dtPgSlgSetting = [
+  appSlug.title__sub_head__add_new_language,
+  appSlug.title__sub_head__selected_languages,
+  appSlug.frm__placehldr__short_name,
+  appSlug.frm__placehldr__full_name,
+  appSlug.frm__btn__add_language,
+  appSlug.frm__btn__update,
+  appSlug.btn__lbl__yes,
+  appSlug.frm__btn__create,
+  appSlug.toolbar__tooltip__page_options,
+  appSlug.btn__lbl__change_translations,
+  appSlug.notif__text__under_progress,
+  appSlug.frm__err__required,
+  appSlug.frm__err__valid_email,
+  appSlug.frm__err__pass_min_char,
+  appSlug.frm__err__positive_number,
+  appSlug.frm__err__must_have_at_least_item,
+  appSlug.notif__text__msg_invalid_data,
+
+  appSlug.notif__succ__trans_updated,
+  appSlug.notif__succ__trans_updated_mi,
+  appSlug.notif__succ__trans_under_implementation,
+  appSlug.notif__succ__lang_updated,
+  appSlug.notif__succ__lang_created,
+  appSlug.notif__err__language_already_exists,
+  appSlug.notif__err__server_error,
+  appSlug.toolbar__tooltip__help,
+  appSlug.toolbar__tooltip__video,
+  appSlug.toolbar__tooltip__favorite,
+  appSlug.notif__succ__favorites_update,
+  appSlug.notif__succ__new_notification,
+
+] as const;
